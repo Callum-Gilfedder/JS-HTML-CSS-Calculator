@@ -2,21 +2,26 @@ body {
     background: linear-gradient(45deg ,cyan, lightblue);
 }
 
-
-
-.container {
+.calc-background {
     background-color: grey;
     width: 33%;
     height: 66vh;
     margin: auto;
     margin-top: 10%;
     margin-bottom:15%;
-    border-radius: 45px;
+    border-radius: 20px;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+
+}
+
+
+.container {
+    position: relative;
+    top: 24vh;
     display: grid;
     grid-template-rows: 10vh 10vh 10vh 10vh;
-    grid-template-columns: auto auto auto auto auto;
-    grid-gap: 10px;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 5px;
 }
 
 .answer-box {
@@ -26,7 +31,10 @@ body {
 }
 
 .item1 {
-    background: black;
-    border-radius: 30px;
+    margin-left: 7px;
+    margin-right: 7px;
+    margin-bottom: 7px;
+    background: lightgrey;
+    border-radius: 20px;
 
 }
