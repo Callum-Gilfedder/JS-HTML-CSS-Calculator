@@ -14,12 +14,18 @@ body {
 
 }
 
+.answer-box {
+    background: white;
+    width: 200px;
+    height: 200px;
+}
+
 
 .container {
     position: relative;
-    top: 24vh;
+    top: 6vh;
     display: grid;
-    grid-template-rows: 10vh 10vh 10vh 10vh;
+    grid-template-rows: 18vh 10vh 10vh 10vh 10vh;
     grid-template-columns: auto auto auto auto;
     grid-gap: 5px;
 }
@@ -36,5 +42,16 @@ body {
     margin-bottom: 7px;
     background: lightgrey;
     border-radius: 20px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
 
+.answer {
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: -10px;
+    margin-bottom: 40px;
+    background: lightgrey;
+    border-radius: 20px;
+    grid-column: 1/5;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
