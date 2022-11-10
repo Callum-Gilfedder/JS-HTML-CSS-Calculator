@@ -2,6 +2,8 @@ body {
     background: linear-gradient(45deg ,cyan, lightblue);
 }
 
+
+
 .container {
     background-color: grey;
     width: 33%;
@@ -11,10 +13,20 @@ body {
     margin-bottom:15%;
     border-radius: 45px;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    display: grid;
+    grid-template-rows: 10vh 10vh 10vh 10vh;
+    grid-template-columns: auto auto auto auto auto;
+    grid-gap: 10px;
 }
 
 .answer-box {
     background: white;
     width: 100px;
     height: 100px;
+}
+
+.item1 {
+    background: black;
+    border-radius: 30px;
+
 }
