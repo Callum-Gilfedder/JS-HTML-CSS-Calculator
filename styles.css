@@ -23,40 +23,39 @@ body {
 
 .container {
     position: relative;
-    top: 6vh;
+    top: 0vh;
     display: grid;
-    grid-template-rows: 18vh 10vh 10vh 10vh 10vh;
-    grid-template-columns: auto auto auto auto;
-    grid-gap: 5px;
+    grid-template-rows: 18vh 10vh 10vh 10vh 10vh 10vh;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-gap: 0px;
 }
 
 .answer-box {
     background: white;
     width: 100px;
     height: 100px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+
 }
 
 .item1 {
-    margin-left: 7px;
-    margin-right: 7px;
-    margin-bottom: 7px;
-    background: lightgrey;
-    border-radius: 20px;
+    background: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: xx-large;
     display: flex;
     justify-content: center; 
-    align-items: center;    
-
+    align-items: center;
+    border-style: solid;    
+    border-color: black;
+    border-width: 1px;
 }
 
 .item1:hover {
-    margin-left: 7px;
-    margin-right: 7px;
-    margin-bottom: 7px;
+
     background: white;
-    border-radius: 20px;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: xx-large;
@@ -67,12 +66,12 @@ body {
 }
 
 .answer {
-    margin-left: 15px;
-    margin-right: 15px;
-    margin-top: -10px;
-    margin-bottom: 40px;
-    background: lightgrey;
-    border-radius: 20px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
+    border-radius: 0px;
     grid-column: 1/5;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -80,5 +79,26 @@ body {
     display: flex;
     justify-content: right; 
     align-items: center;    
+    border-style: solid;
+    border-color: black;
+    border-radius: 5px 5px 0px 0px;
+    border-width: 1px;
+
     
+}
+.spanning {
+    grid-column: 1/5;
+    background: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: xx-large;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    border-style: solid;    
+    border-color: black;
+    border-radius: 0px 0px 5px 5px;
+    border-width: 1px;
+
+
 }
