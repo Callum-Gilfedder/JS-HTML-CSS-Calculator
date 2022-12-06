@@ -8,7 +8,7 @@ var operator = "default";
 var savedValue = 0;
 // loop through and add event listener to each one, each time a button is clicked it reaches for the inner html and 
 // appends that value to the answer_button.
-operatorsList = ["answer", "+", "x", "-", "AC", "="] 
+operatorsList = ["answer", "+", "x", "-", "AC", "=", "/"] 
 
 
 
@@ -40,6 +40,11 @@ function getInnerHTML() {
             answer_button.innerHTML = "";
             operator = "-";
         }
+        if (this.innerHTML==="/") {
+            savedValue = answer_button.innerHTML
+            answer_button.innerHTML = "";
+            operator = "/";
+        }
         if (this.innerHTML==="AC") {
             answer_button.innerHTML = "";
         }
@@ -58,17 +63,16 @@ function getInnerHTML() {
                 answer_button.innerHTML = finalValue;
 
             }
+            if (operator === "/") {
+                finalValue = Number(savedValue) / Number(answer_button.innerHTML)  ;
+                answer_button.innerHTML = finalValue;
+
+            }
             
         }
     } else if (this.innerHTML != ".") {
         answer_button.innerHTML = answer_button.innerHTML + this.innerHTML
     }
-    
-
-
-
-
-
 }
 
 

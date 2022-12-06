@@ -1,5 +1,5 @@
 body {
-    background: linear-gradient(45deg ,cyan, lightblue);
+    background: linear-gradient(45deg ,#EFFFFD, lightblue);
 }
 
 .calc-background {
@@ -40,8 +40,10 @@ body {
 
 }
 
+
+
 .item1 {
-    background: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
+    background: linear-gradient(120deg, #85F4FF 0%, lightblue 100%);
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: xx-large;
@@ -55,7 +57,7 @@ body {
 
 .item1:hover {
 
-    background: white;
+    background: #EFFFFD;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: xx-large;
@@ -70,7 +72,7 @@ body {
     margin-right: 0px;
     margin-top: 0px;
     margin-bottom: 0px;
-    background: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
+    background: linear-gradient(120deg, #85F4FF 0%, lightblue 100%);
     border-radius: 0px;
     grid-column: 1/5;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
@@ -88,7 +90,7 @@ body {
 }
 .spanning {
     grid-column: 1/5;
-    background: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
+    background: linear-gradient(120deg, #85F4FF 0%, lightblue 100%);
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: xx-large;
@@ -99,6 +101,5 @@ body {
     border-color: black;
     border-radius: 0px 0px 5px 5px;
     border-width: 1px;
-
-
 }
+
